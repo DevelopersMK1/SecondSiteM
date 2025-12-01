@@ -308,7 +308,8 @@ p {
   margin-bottom: 60px;
 }
 .tab-button button {
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   padding: 1px 30px;
   font-size: 16px;
   line-height: 21px;
@@ -346,7 +347,7 @@ p {
 }
 
 .page3img img{
-    width: 800px;
+    width: 1000px;
     height: 600px;
 }
 
@@ -458,12 +459,19 @@ p {
     display: flex;
     justify-content: space-between;
   }
+
+
 }
 
 @media (max-width: 760px) {
   .about .cards {
     height: 789px;
   }
+  .page3img{
+    width: auto;
+    height: auto;
+  }
+ 
 }
 
 @media (max-width: 650px) {
@@ -510,13 +518,13 @@ p {
   }
 
   .tab-button > * + * {
-    margin-left: 0;
+    margin-left: 20px;
   }
 
   .tab-button button {
     font-size: 14px;
-    padding: 8px 27px;
-    margin-bottom: 35px;
+    padding: 10px px;
+    margin-bottom: 25px;
   }
 
   .title {
@@ -591,6 +599,11 @@ p {
 .header_nav{
     margin-right: 2px;
 
+}
+
+.tab-button button{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 }
